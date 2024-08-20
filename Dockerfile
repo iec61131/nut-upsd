@@ -1,7 +1,5 @@
 FROM alpine:3.19.0
 
-ENV NUT_VERSION 2.8.1
-
 ENV UPS_NAME="ups"
 ENV UPS_DESC="UPS"
 ENV UPS_DRIVER="usbhid-ups"
